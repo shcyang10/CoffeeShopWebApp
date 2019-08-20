@@ -9,8 +9,8 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class CoffeeShopController {
 	
-	@Autowired
-	private Person regFromForm;
+//	@Autowired
+//	private Person regFromForm;
 	
 	@RequestMapping("/")
 	public String homePage() {
